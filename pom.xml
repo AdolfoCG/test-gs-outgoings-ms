@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.adolfo.test.gs</groupId>
-	<artifactId>incomes</artifactId>
+	<artifactId>outgoins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>incomes</name>
 	<description>Demo project for Spring Boot</description>
