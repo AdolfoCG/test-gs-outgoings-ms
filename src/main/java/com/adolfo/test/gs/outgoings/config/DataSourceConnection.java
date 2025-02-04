@@ -1,4 +1,4 @@
-package com.adolfo.test.gs.incomes.config;
+package com.adolfo.test.gs.outgoings.config;
 
 import java.util.Map;
 
@@ -20,7 +20,7 @@ import jakarta.persistence.EntityManagerFactory;
 
 @Configuration
 @EnableJpaRepositories(
-    basePackages = "com.adolfo.test.gs.incomes.repositories",
+    basePackages = "com.adolfo.test.gs.outgoings.repositories",
     entityManagerFactoryRef = "datasourceEntityManagerFactory",
     transactionManagerRef = "datasourceTransactionManager"
 )
@@ -47,7 +47,7 @@ public class DataSourceConnection {
         return builder
             .dataSource(dataSource)
             .properties(properties)
-            .packages("com.adolfo.test.gs.incomes.entities")
+            .packages("com.adolfo.test.gs.outgoings.entities")
             .persistenceUnit("datasource")
             .build();
     }

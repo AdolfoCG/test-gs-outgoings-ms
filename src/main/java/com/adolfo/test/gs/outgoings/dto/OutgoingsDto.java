@@ -1,6 +1,6 @@
-package com.adolfo.test.gs.incomes.dto;
+package com.adolfo.test.gs.outgoings.dto;
 
-import com.adolfo.test.gs.incomes.entities.Empleado;
+import com.adolfo.test.gs.outgoings.entities.Empleado;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
@@ -13,7 +13,7 @@ import lombok.ToString;
 @Setter
 @ToString
 @NoArgsConstructor
-public class IncomesDto {
+public class OutgoingsDto {
     @NotNull
     @Positive
     private Float monto;

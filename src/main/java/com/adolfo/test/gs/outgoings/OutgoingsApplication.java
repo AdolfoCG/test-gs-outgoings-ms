@@ -1,13 +1,13 @@
-package com.adolfo.test.gs.incomes;
+package com.adolfo.test.gs.outgoings;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IncomesApplication {
+public class OutgoingsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(IncomesApplication.class, args);
+		SpringApplication.run(OutgoingsApplication.class, args);
 	}
 
 }

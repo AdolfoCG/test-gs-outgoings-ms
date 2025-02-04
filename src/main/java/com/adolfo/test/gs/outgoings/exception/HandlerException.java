@@ -1,4 +1,4 @@
-package com.adolfo.test.gs.incomes.exception;
+package com.adolfo.test.gs.outgoings.exception;
 
 import java.util.Date;
 import java.util.HashMap;

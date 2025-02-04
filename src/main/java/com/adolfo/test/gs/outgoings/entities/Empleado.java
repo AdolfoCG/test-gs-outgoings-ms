@@ -1,4 +1,4 @@
-package com.adolfo.test.gs.incomes.entities;
+package com.adolfo.test.gs.outgoings.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
